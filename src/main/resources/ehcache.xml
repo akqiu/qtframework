@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false" dynamicConfig="false">
+    <diskStore path="java.io.tmpdir"/>
+    <defaultCache maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="30" timeToLiveSeconds="30" overflowToDisk="false"/>
+    <cache name="staticResourceCache"
+           maxElementsInMemory="1000"
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="60"
+           memoryStoreEvictionPolicy="LFU"
+    >
+    </cache>
+</ehcache>

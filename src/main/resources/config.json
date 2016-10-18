@@ -1,0 +1,24 @@
+{
+    "scannerPath" : "com.demo",
+    "resourcesFilter" : "js|css|jpg|png|gif|html|map|xml",
+    "resourcesViewPath":"/stc/",
+    "resourcesSourcePath" : "/static/",
+    "viewPath" : "/view/",
+    "viewType" : 2,
+    "contentType": {
+        "css":"text/css",
+        "ico":"image/x-icon",
+        "xml":"text/xml",
+        "jpg":"image/jpeg",
+        "png":"image/png",
+        "gif":"image/gif",
+        "pdf":"application/pdf",
+        "js":"*/*",
+        "avi":"video/avi",
+        "mp3":"audio/mp3",
+        "mpg":"video/mpg",
+        "wav":"audio/x-wav",
+        "swf":"application/x-shockwave-flash"
+    }
+
+}
